@@ -9,5 +9,8 @@
     "files": [
         "motors.ts"
     ],
+    "dependencies": {
+      "pxt-pca9685": ""
+    },
     "public": true
 }
