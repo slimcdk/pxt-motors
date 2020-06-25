@@ -3,8 +3,6 @@ def on_bluetooth_connected():
     bluetooth.start_button_service()
 bluetooth.on_bluetooth_connected(on_bluetooth_connected)
 
-dcmotor.usedc()
-
 def on_forever():
     if input.button_is_pressed(Button.AB):
         dcmotor.m1(True, 50)

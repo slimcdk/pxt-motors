@@ -1,9 +1,8 @@
-bluetooth.onBluetoothConnected(function () {
+bluetooth.onBluetoothConnected(function on_bluetooth_connected() {
     bluetooth.startLEDService()
     bluetooth.startButtonService()
 })
-dcmotor.usedc()
-basic.forever(function () {
+basic.forever(function on_forever() {
     if (input.buttonIsPressed(Button.AB)) {
         dcmotor.m1(true, 50)
         dcmotor.m2(true, 50)
@@ -17,4 +16,5 @@ basic.forever(function () {
         dcmotor.m1(false, 0)
         dcmotor.m2(false, 0)
     }
+    
 })
