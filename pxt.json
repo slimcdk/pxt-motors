@@ -8,6 +8,7 @@
         "pca9685": "github:jdarling/pxt-pca9685#0.0.5"
     },
     "files": [
+        "README.md",
         "motors.ts"
     ],
     "public": true
