@@ -1,10 +1,11 @@
 {
-    "name": "Motors",
+    "name": "pxt-motors",
     "version": "0.0.1",
     "description": "Teknologiskolens micro:bit",
     "license": "MIT",
     "dependencies": {
-        "core": "*"
+        "core": "*",,
+        "pca9685": "github:jdarling/pxt-pca9685#0.0.5"
     },
     "files": [
         "motors.ts"
