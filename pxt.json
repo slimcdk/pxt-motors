@@ -1,0 +1,13 @@
+{
+    "name": "pxt-motors",
+    "version": "0.0.1",
+    "description": "Teknologiskolens micro:bit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "motors.ts"
+    ],
+    "public": true
+}
