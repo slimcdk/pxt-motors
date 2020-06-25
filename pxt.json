@@ -4,8 +4,7 @@
     "description": "Teknologiskolens micro:bit",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "pca9685": "github:jdarling/pxt-pca9685#0.0.5"
+        "core": "*"
     },
     "files": [
         "motors.ts"
