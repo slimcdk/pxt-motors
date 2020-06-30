@@ -9,7 +9,8 @@
     },
     "files": [
         "README.md",
-        "motors.ts"
+        "microbit-rc-car.hex",
+        
     ],
     "public": true
 }
